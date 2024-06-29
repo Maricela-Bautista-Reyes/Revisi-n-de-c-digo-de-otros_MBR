@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- se utiliza para asegurar que Internet Explorer utilice el modo de renderizado más reciente disponible.
+     Internet Explorer está configurado para ignorar esta etiqueta, por lo cual se omite, ya que se desconose que explorador la abrira
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <!--Se corrige la ubicación de la hoja de estilo-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
-    <p class="name"></p>
-    <p class="blog"></p>
+<!--los selectores (#name, #blog, .location)
+deben corresponder a los elementos en tu HTML-->
+  <div id="name"></div>
+  <div id="blog"></div>
+  <div class="location"></div>
 
-  <script src="../assets/js/app.js"></script>
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
